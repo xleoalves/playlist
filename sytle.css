@@ -1,0 +1,113 @@
+body{
+    font-family: "Montserrat";
+    background-color: #121212;
+}
+
+#foto{
+    margin-top: 95px;
+    background-color: #74009e;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+a :hover{
+    background-color: #2c003b;
+}
+
+a{
+    color: #74009e;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    position: absolute;
+    color: #fff;
+    padding-left: 350px;
+    padding-right: 200px;
+    top: 150px;
+}
+
+nav{
+    background-color: #000000;
+    color: white;
+    height: 50px;
+    border: solid black 1px;
+    padding: 5px;
+    font-size: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spotify-playlist{
+    padding: 20px 40px;
+    display: inline-block;
+}
+
+.spotify-playlist h2{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.spotify-playlist .card{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.spotify-playlist .card .item{
+    width: 190px;
+    min-width: 140px;
+    background-color: #262626;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.spotify-playlist .card .item:hover{
+    background-color: #242424;
+}
+
+.spotify-playlist .card .item img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.spotify-playlist .item h4{
+    color: #fff;
+}
+
+.spotify-playlist .item p{
+    color: #8f8c8c;
+    font-size: 13px;
+}
+
+.spotify-playlist .item p:hover{
+    text-decoration: underline;
+}
+
+.spotify-playlist .butao-play{
+    position: relative;
+}
+
+.spotify-playlist .butao-play{
+    position: absolute;
+    background-color: #1db954;
+    border-radius: 50%;
+    padding: 14px;
+    opacity: 0;
+}
+
+.spotify-playlist .card .item:hover .butao-play{
+    opacity: 1;
+}
+
